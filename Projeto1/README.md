@@ -130,22 +130,58 @@ R....
 RESULTADOS DA BUSCA BFS
 ============================================================
 
-📊 1. QUALIDADE DA SOLUÇÃO:
+ 1. QUALIDADE DA SOLUÇÃO:
    ✓ Solução encontrada: SIM
    ✓ Tipo: ÓTIMA (BFS garante caminho mínimo)
 
-💰 2. CUSTO DA SOLUÇÃO:
+ 2. CUSTO DA SOLUÇÃO:
    Movimentos: 12
 
-🔍 3. ESTADOS EXPLORADOS:
+ 3. ESTADOS EXPLORADOS:
    Nós gerados: 245
    Nós expandidos: 187
    
-⏱️ 4. TEMPO DE EXECUÇÃO:
+ 4. TEMPO DE EXECUÇÃO:
    0.0234 segundos
 
-💾 5. USO DE MEMÓRIA:
+ 5. USO DE MEMÓRIA:
    Pico: 2.34 MB
 ```
+
+##  Principais Características do Código
+
+- **Orientação a Objetos:** Classes bem definidas para cada componente  
+- **Métricas Detalhadas:** Medição de tempo, memória, nós gerados/expandidos  
+- **Flexibilidade:** Fácil adicionar novos cenários ou heurísticas  
+- **Documentação:** Docstrings explicativos em todas as classes e métodos  
+- **Tipagem Estática:** Uso de `typing` para melhor legibilidade  
+- **Visualização:** Opção de gerar gráficos comparativos (quando `matplotlib` está instalado)  
+
+---
+
+##  Possíveis Modificações
+
+Para adaptar o código a outros problemas:
+
+- **Nova Heurística:** Substitua `heuristica_manhattan()` na classe `Labirinto`  
+- **Novos Movimentos:** Modifique `direcoes` na classe `Labirinto`  
+- **Custos Diferentes:** Altere `custo` na função `transicao()`  
+- **Novos Cenários:** Adicione métodos em `GeradorCenarios`  
+
+---
+
+##  Dicas para Uso no Colab
+
+- **Economia de tempo:**  
+  Se não quiser executar todos os testes, modifique a lista `cenarios` na função `executar_no_colab()`  
+
+- **Interrupção:**  
+  Use `Ctrl + M + I` para interromper a execução no Colab  
+
+- **Memoização / Recursos:**  
+  O Colab pode desativar a GPU para economizar recursos — não há problema, pois o projeto é *CPU-bound*  
+
+- **Download dos resultados:**  
+  Os resultados são exibidos na saída da célula — você pode copiá-los ou usar `print()` para salvar em arquivo  
 
 
