@@ -112,7 +112,7 @@ O projeto está contido em um único arquivo Python, organizado nos seguintes m�
   - Gera relatórios
   - Opcionalmente, gera gráficos com `matplotlib`
  
-  ### Pasta Resultados
+### 🔹 Pasta Resultados
 
   Nessa parta contém as imagens da tabela comparativa entre os algoritmos e os graficos de memória, tempo de execução, estados explorados e nós expandidos
 
