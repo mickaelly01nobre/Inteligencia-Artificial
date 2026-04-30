@@ -12,7 +12,7 @@ Este projeto implementa e compara dois algoritmos de busca para solucionar um pr
 
 **Algoritmos Implementados:**
 1. **BFS (Busca em Largura)** - Garante o caminho ótimo (menor número de movimentos)
-2. **A* (A-estrela)** - Utiliza heurística de Manhattan para busca mais eficiente
+2. **A (A-estrela)** - Utiliza heurística de Manhattan para busca mais eficiente
 
 O projeto inclui também um analisador estatístico que compara o desempenho de ambos os algoritmos em diferentes cenários.
 
