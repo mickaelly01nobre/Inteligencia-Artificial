@@ -172,20 +172,5 @@ Para adaptar o código a outros problemas:
 - **Custos Diferentes:** Altere `custo` na função `transicao()`  
 - **Novos Cenários:** Adicione métodos em `GeradorCenarios`  
 
----
-
-##  Dicas para Uso no Colab
-
-- **Economia de tempo:**  
-  Se não quiser executar todos os testes, modifique a lista `cenarios` na função `executar_no_colab()`  
-
-- **Interrupção:**  
-  Use `Ctrl + M + I` para interromper a execução no Colab  
-
-- **Memoização / Recursos:**  
-  O Colab pode desativar a GPU para economizar recursos — não há problema, pois o projeto é *CPU-bound*  
-
-- **Download dos resultados:**  
-  Os resultados são exibidos na saída da célula — você pode copiá-los ou usar `print()` para salvar em arquivo  
 
 
