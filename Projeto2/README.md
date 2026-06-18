@@ -33,4 +33,4 @@ Execute o seguinte comando para instalar as bibliotecas necessárias (o notebook
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn
-´´´
+'''
