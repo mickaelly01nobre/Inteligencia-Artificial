@@ -44,7 +44,7 @@ O projeto foi desenvolvido e testado no ambiente **Google Colab**, o que simplif
 
 ### 1. Abrir o Notebook no Colab
 
-Faça o upload do arquivo `projeto2 (4).ipynb` para o Google Colab ou abra-o diretamente de um repositório do GitHub.
+Faça o upload do arquivo `projeto2.ipynb` para o Google Colab ou abra-o diretamente de um repositório do GitHub.
 
 ### 2. Executar as Células
 
